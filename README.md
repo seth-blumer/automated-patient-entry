@@ -1,13 +1,30 @@
-README.md
-Automated Patient Data Entry with Selenium
+# **Automated Patient Data Entry with Selenium**
 
-Overview
-This project automates the process of entering prescription data into an online form using Selenium and Pandas. It reads patient and prescription details from a CSV file, processes the data, and fills out a web form on the New York State Health Commerce System.
+## **Overview**
+This project automates the process of entering prescription data into an online form using **Selenium** and **Pandas**. It reads patient and prescription details from a CSV file, processes the data, and fills out a web form on the **New York State Health Commerce System**.
 
-Features
-Reads and processes patient data from a CSV file.
-Cleans and formats data (capitalization, date formatting, gender conversion, etc.).
-Uses Selenium WebDriver to interact with the online form.
-Automatically enters patient and prescription information.
-Supports incognito mode and various browser options for stable execution.
+## **Features**
+- **Reads and processes patient data** from a CSV file.
+- **Cleans and formats data**, including:
+  - Proper capitalization
+  - Date formatting
+  - Gender conversion (e.g., "M" → "Male", "F" → "Female")
+- **Uses Selenium WebDriver** to interact with the online form.
+- **Automates data entry** for both patient and prescription details.
+- **Supports browser options**, including:
+  - **Incognito mode** for privacy
+  - **Headless execution** for background operation
 
+## **Requirements**
+Ensure you have the following installed:
+- **Python 3.x**
+- **Selenium** (`pip install selenium`)
+- **Pandas** (`pip install pandas`)
+- **WebDriver** (e.g., ChromeDriver for Google Chrome)
+
+## **Usage**
+1. **Prepare the CSV file** with patient and prescription details.
+2. **Run the script** using:
+   ```bash
+   python script.py
+   ```
